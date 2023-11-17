@@ -1,0 +1,6 @@
+<h1>Chef of restaurant <%= @restaurant.name %></h1>
+
+<h3><%= @restaurant.chef_name %></h3>
+<p><%= @restaurant.chef_description %></p>
+
+<%= link_to "Back to restaurant", restaurant_path(@restaurant) %>
